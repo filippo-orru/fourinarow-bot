@@ -7,3 +7,14 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix = "0.10"
+actix-codec = "0.3"
+actix-web = {version="3", features = [ "rustls" ]}
+actix-web-actors = "3"
+actix-files = "0.3"
+awc = "2"
+env_logger = "0.7"
+futures = "0.3.1"
+bytes = "0.5.3"
+
+chrono = "*"
